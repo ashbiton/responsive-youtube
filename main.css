@@ -1,0 +1,29 @@
+iframe[class="youtube"] {
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    width: 49%;
+    box-sizing: border-box;
+    border: 5px solid green;
+}
+
+.videos-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+    .video-container {
+        width: 100%;
+    } 
+
+    .videos-container {
+        flex-direction: column;
+    }
+}
+
